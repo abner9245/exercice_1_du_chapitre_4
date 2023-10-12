@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+span {
+    color: var(--couleur), black;
+    background-color: var(--couleurFond, transparent);
+    font-family:var(--police, arial);
+    padding: var(--espacement, 0);
+    font-size: var(--taille, 14px);
+    font-weight: var(--gras, normal);
+    border-radius: var(--bordure, 5px);
+}
+
+.danger {
+    --couleur : white;
+    --couleurFond: red;
+    --espacement: 7px;
+    --police: 'langar', cursive;
+    --gras: bold;
+}
+
+.warning {
+    --couleur:black;
+    --couleurFond: yellow
+    --taille: 22px;
+}
